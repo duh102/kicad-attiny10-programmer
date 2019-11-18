@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 89)
     (zones 0)
     (modules 13)
@@ -642,6 +642,9 @@
     )
   )
 
+  (gr_text "11/17/19\nWM v1.0.0" (at 175.768 104.267 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 169.8 89.7) (end 166.4 89.7) (layer F.SilkS) (width 0.12))
   (gr_line (start 169.8 96.2) (end 169.8 89.7) (layer F.SilkS) (width 0.12))
   (gr_line (start 161 96.2) (end 169.8 96.2) (layer F.SilkS) (width 0.12))
