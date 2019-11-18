@@ -283,7 +283,20 @@ Wire Wire Line
 Connection ~ 5250 3750
 Wire Wire Line
 	7100 3700 7100 3950
+$Comp
+L Device:R R8
+U 1 1 5DD237BE
+P 7100 4200
+F 0 "R8" H 7170 4246 50  0000 L CNN
+F 1 "1kR" H 7170 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7030 4200 50  0001 C CNN
+F 3 "~" H 7100 4200 50  0001 C CNN
+	1    7100 4200
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	7100 3950 7100 4450
+	7100 4050 7100 3950
 Connection ~ 7100 3950
+Wire Wire Line
+	7100 4350 7100 4450
 $EndSCHEMATC
